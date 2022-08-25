@@ -15,5 +15,7 @@ resource "oci_identity_compartment" "root_compartment" {
   freeform_tags = {
     factory = "digital"
     app_code = "nsfc"
+    managed-by = "Terraform Cloud"
+    terraform-cloud-workspace = "Sisal-Fan-Club/root_compartment"
   }
 }
