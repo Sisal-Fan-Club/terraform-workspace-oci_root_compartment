@@ -1,0 +1,1 @@
+# terraform-workspace-oci_root_compartment
