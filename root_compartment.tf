@@ -3,6 +3,8 @@ locals {
 }
 
 resource "oci_identity_compartment" "root_compartment" {
+  provider = oci.home
+  
   compartment_id = var.oci_tenancy_id
   
   name = "sisal-fan-club"
