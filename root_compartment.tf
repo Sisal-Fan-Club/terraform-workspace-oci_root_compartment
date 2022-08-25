@@ -8,7 +8,7 @@ resource "oci_identity_compartment" "root_compartment" {
   compartment_id = var.oci_tenancy_id
   
   name = "sisal-fan-club"
-  description = "Sisal Fan Club"
+  description = "Sisal Fan Club (error)"
   
   enable_delete = true
   
